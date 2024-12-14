@@ -1,0 +1,13 @@
+ concurency:
+ basically concurrency is a execution of program concurently that means one executition at a time not a parralell execution
+
+
+waitgroups:
+basically waigroups use syntax like .ADD , .WAIT etc .It is used to handle  concurancy it is the standard form of time.sleep()
+
+
+mutex:
+basically goroutines keeps many threads in single memory to eradicate it we use mutex which helps in defining how much threads can one memory hold.Its syntax is  .Lock, .Unlock
+
+.lock, .unlock:
+basically it lock the memory and perform operation and after operation being performed it unlocks 
